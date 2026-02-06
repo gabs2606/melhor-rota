@@ -1,0 +1,44 @@
+name: melhor_rota
+description: Aplicativo de otimização de rotas
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  
+  # Mapa e localização
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  geolocator: ^10.0.0
+  
+  # Arquivos e dados
+  file_picker: ^5.5.0
+  csv: ^5.0.0
+  excel: ^4.0.3
+  
+  # Rede e APIs
+  http: ^1.0.0
+  geocoding: ^2.1.0
+  url_launcher: ^6.1.0
+  
+  # Permissões e utilitários
+  permission_handler: ^11.0.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image/unnamed-Photoroom (5) (1).png
+
